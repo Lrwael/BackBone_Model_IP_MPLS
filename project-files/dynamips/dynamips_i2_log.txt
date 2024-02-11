@@ -1,0 +1,26 @@
+Feb 11 18:22:24.895 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 11 18:22:24.896 HYPERVISOR: Started on IP = localhost, TCP port = 53358.
+Feb 11 18:22:24.900 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 11 18:22:24.901 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Wael Laaroussi\Desktop\Securité2\BackBone_IP_MPLS\Configuration_BB\project-files\dynamips 
+Feb 11 18:22:24.901 GENERAL: working_dir=C:\Users\Wael Laaroussi\Desktop\Securité2\BackBone_IP_MPLS\Configuration_BB\project-files\dynamips
+Feb 11 18:22:24.901 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Wael Laaroussi\Desktop\Securité2\BackBone_IP_MPLS\Configuration_BB\project-files\dynamips\4db84afc-f359-46a7-983c-e7ca06fbb854 
+Feb 11 18:22:24.902 GENERAL: working_dir=C:\Users\Wael Laaroussi\Desktop\Securité2\BackBone_IP_MPLS\Configuration_BB\project-files\dynamips\4db84afc-f359-46a7-983c-e7ca06fbb854
+Feb 11 18:22:24.902 HYPERVISOR: exec_cmd: vm create CE11 2 c7200 
+Feb 11 18:22:24.903 VM: VM CE11 created.
+Feb 11 18:22:24.903 HYPERVISOR: exec_cmd: vm set_con_tcp_port CE11 5001 
+Feb 11 18:22:24.904 HYPERVISOR: exec_cmd: c7200 get_mac_addr CE11 
+Feb 11 18:22:24.904 HYPERVISOR: exec_cmd: vm get_status CE11 
+Feb 11 18:22:24.904 HYPERVISOR: exec_cmd: vm slot_add_binding CE11 0 0 C7200-IO-FE 
+Feb 11 18:22:24.904 HYPERVISOR: exec_cmd: vm set_disk0 CE11 0 
+Feb 11 18:22:24.905 HYPERVISOR: exec_cmd: vm set_exec_area CE11 64 
+Feb 11 18:22:24.905 HYPERVISOR: exec_cmd: vm get_status CE11 
+Feb 11 18:22:24.905 HYPERVISOR: exec_cmd: vm set_idle_pc CE11 0x62cc930c 
+Feb 11 18:22:24.905 HYPERVISOR: exec_cmd: vm set_ios CE11 C:/Users/Wael Laaroussi/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Feb 11 18:22:24.906 HYPERVISOR: exec_cmd: c7200 set_mac_addr CE11 ca02.4460.0000 
+Feb 11 18:22:24.907 HYPERVISOR: exec_cmd: vm set_nvram CE11 512 
+Feb 11 18:22:24.907 HYPERVISOR: exec_cmd: vm set_ram CE11 512 
+Feb 11 18:22:24.908 HYPERVISOR: exec_cmd: vm get_status CE11 
+Feb 11 18:22:24.908 HYPERVISOR: exec_cmd: vm slot_add_binding CE11 1 0 PA-GE 
+Feb 11 18:22:28.134 HYPERVISOR: exec_cmd: nio create_udp udp-9c84505e-f376-43ed-a3f2-147dc0d4f283 10002 127.0.0.1 10003 
+Feb 11 18:22:28.389 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CE11 1 0 udp-9c84505e-f376-43ed-a3f2-147dc0d4f283 
+Feb 11 18:22:28.390 HYPERVISOR: exec_cmd: vm get_status CE11 
